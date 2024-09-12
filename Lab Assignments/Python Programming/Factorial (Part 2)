@@ -1,0 +1,5 @@
+import math
+while 1:
+    num1 = int(input("Give a number to factorialize: "))
+    fac1 = str(math.factorial(num1))
+    print("Your factorialized number is " + fac1)
