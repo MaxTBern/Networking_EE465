@@ -1,0 +1,5 @@
+num1 = int(input("Please enter number one: "))
+num2 = int(input("Please enter number two: "))
+sumNum = num1 + num2
+strNum = str(sumNum)
+print("Your sum is " + strNum)
