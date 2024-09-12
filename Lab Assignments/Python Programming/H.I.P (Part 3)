@@ -1,0 +1,15 @@
+import socket   
+import sys
+
+while 1:
+    choice = input("View Hostname, IP Address, or Python Version (H/I/P): ")
+
+    if choice == "H":
+        print("Hostname: " + str(socket.gethostname()))
+    elif choice == "I":
+        IPAddress = socket.gethostname()
+        print("IP Address: " + str(socket.gethostbyname(IPAddress)))
+    elif choice == "P":
+        print("Python Version: " + str(sys.version))
+    else:
+        print("Pick a legitimate option")
